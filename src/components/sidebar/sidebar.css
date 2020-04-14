@@ -1,0 +1,26 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo{
+        width: 85%;
+        height: auto;
+        padding: 7%;
+}
+.icon{
+    padding: 5%;
+    
+}
+.bars {
+    padding: 15px;
+    color: #f59c00;
+    font-size: 28px;
+    height: auto;
+}
+
+@media (min-width:600px) {
+    .bars{
+      display: none;
+      margin-left: auto;
+    }
+  }
